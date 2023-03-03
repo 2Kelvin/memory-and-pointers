@@ -25,7 +25,7 @@ Pointers make it easy for functions to **share memory** i.e. read, write & updat
 - [x] Get the address of the variable (`&variableName`) e.g. **&x** and then declare a **pointer variable** to store the variable's memory address. Also, before the declaration, say what type of data is stored in the pointer variable.
 
     ```c
-    int  xAddress = &x;
+    int xAddress = &x;
     ```
 
 - [x]  Read the content (values) of the memory address. Use `*` operator => it takes in an address and and tells you what's stored there
