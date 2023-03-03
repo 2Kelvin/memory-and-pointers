@@ -22,19 +22,19 @@ Pointers make it easy for functions to **share memory** i.e. read, write & updat
 
 **How to use pointers(references) to read & write memory data:**
 
-    [x] Get the address of the variable (`&variableName`) e.g. **&x** and then declare a **pointer variable** to store the variable's memory address. Also, before the declaration, say what type of data is stored in the pointer variable.
+- [x] Get the address of the variable (`&variableName`) e.g. **&x** and then declare a **pointer variable** to store the variable's memory address. Also, before the declaration, say what type of data is stored in the pointer variable.
 
         ```c
         int  xAddress = &x;
         ```
 
-    [x]  Read the content (values) of the memory address. Use `*` operator => it takes in an address and and tells you what's stored there
+- [x]  Read the content (values) of the memory address. Use `*` operator => it takes in an address and and tells you what's stored there
 
         ```c
         int valueStored = *xAddress;
         ```
 
-    [x] Change the content of an address i.e change the value stored in the address. Use the __*__ operator before the address (on the left side of the assignment) and assign it the new value
+- [x] Change the content of an address i.e change the value stored in the address. Use the __*__ operator before the address (on the left side of the assignment) and assign it the new value
 
         ```c
         *xAddress = 7;
